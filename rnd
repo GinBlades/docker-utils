@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+UUID=$(cat /proc/sys/kernel/random/uuid)
+LENGTH=${1:-36}
+echo ${UUID:0:$LENGTH}

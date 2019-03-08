@@ -1,0 +1,17 @@
+--type-set=sourcemap=.map
+--type-set=log=.log
+--type-set=cache=.cache
+--type-set=haml=.haml
+--type-set=hbs=.hbs
+--type-set=meta=.meta
+--type-set=csv=.csv
+
+--type=nolog
+--type=nocache
+--type=nosourcemap
+--type=nosql
+--type=nometa
+
+--ignore-dir=vendor
+--ignore-dir=var
+--ignore-dir=node_modules
